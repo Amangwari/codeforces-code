@@ -30,7 +30,7 @@ int main() {
 	ll count = 0;
 	for(int i=1;i<=n-2;i++){
 		if(arr2[i]<arr2[i-1] && arr2[i]<arr2[i+1]){
-			count--;
+			count++;
 		}
 	}
 	cout<<count<<"\n";
